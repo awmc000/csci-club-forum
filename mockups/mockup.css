@@ -1,0 +1,88 @@
+
+
+.centredpage {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.gridparent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    gap: 0px;
+}
+    
+.header {
+    grid-column: span 5 / span 5;
+    /* background-color: aquamarine; */
+    height: 100px;
+}
+
+.div3 {
+    grid-row: span 3 / span 3;
+    grid-row-start: 2;
+    /* background-color: greenyellow; */
+}
+
+.div4 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-row-start: 2;
+    /* background-color: red; */
+}
+
+.div5 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 5;
+    grid-row-start: 2;
+    /* background-color: lightskyblue; */
+}
+
+.div6 {
+    grid-column: span 5 / span 5;
+    grid-row-start: 5;
+    /* background-color: lightpink; */
+}
+
+.leftbartable {
+    text-decoration: none;
+}
+
+.leftbarrow {
+    height: 20px;
+}
+/* 
+.leftbaritem {
+    width: 100%;
+    height: 100%;
+} */
+
+.threadtitle {
+    text-align: left;
+    width: 350px;
+    padding:2px;
+}
+
+.threadlink {
+    color: black;
+}
+
+.threadauthor {
+    color:blue;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table td, table th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+img {
+    image-rendering:optimizeQuality;
+}
